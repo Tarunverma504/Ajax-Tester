@@ -120,7 +120,6 @@ function output(responseText, status, xhr) {
     
 })*/
 
-//document.getElementById("#copy-text").addEventListener("click", copy_password);
 $("#copy-text").on('click',copy_password)
 function copy_password() {
     var copyText = document.getElementById("api-text");
